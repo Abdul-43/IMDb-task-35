@@ -1,0 +1,13 @@
+create table movies(MOVIE_ID varchar(2), MOVIE_NAME varchar(100), MEDIA_TYPE varbinary(50), GENRE varchar(50), ARTISTS varchar(500), REVIEWS varchar(500), USERS varchar(500)) ;
+
+
+
+insert into movies values('01', 'The God Father', ("https://www.imdb.com/title/tt0068646/mediaviewer/rm746868224/?ref_=tt_ov_i"), 'Crime Film', ('["Al Pacino", "Marlon Brando", "James Caan", "Diane Keaton"]'), ('["The Godfather is one of the most revered movies of all time and its contribution to cinema is remarkable.", "I wish to give 1000 stars. Epic movie!"]'),('["Abood Ash","Sabita Dutta"]') );
+
+insert into movies values('02', 'Mission Impossible', ("https://www.imdb.com/title/tt4912910/mediaviewer/rm1408844288/?ref_=tt_ov_i"), 'Action', ('["Tom Cruise", "Henry Cavill", "Ving Rhames"]'), ('["I don't like action movies but...some movies have exception. is the case of Mission: Impossible - Fallout. It's not like Fast & Furious. Do not. it's not that kind of film"]'),('["Mewlinbauer","Mr Heraclius"]') );
+
+insert into movies values('03', 'Shawshank Redemption', ("https://www.imdb.com/title/tt0111161/mediaviewer/rm1690056449/?ref_=tt_ov_i"), 'Drama', ('["Morgan Freeman", "Tim Robbins", "Clancy Brown", "Bob Gunton"]'), ('["Highly Overrated But Only Good", "Hope is a good thing probably best of all and good thing never dies"]'),('["Kyle Ellis","Hari"]') );
+
+insert into movies values('04', 'Game Of Thrones', ("https://www.imdb.com/title/tt0944947/mediaviewer/rm745370112/?ref_=tt_ov_i"), 'Adventure', ('["Emilia Clarke", "Peter Dinklage", "Kit Harington"]'), ('["Game of Thrones has its flaws but it can't be denied that it's one of the most watched, popular and cherished shows by HBO"]'),('["Jacobnoble","Marwa"]') );
+
+insert into movies values('05', 'Furious 7', ("https://www.imdb.com/title/tt2820852/mediaviewer/rm3501718272/?ref_=tt_ov_i"), 'Crime', ('["Vin Diesel", "Paul Walker", "Dwayne Johnson"]'), ('["Fast & Furious has become a huge recognizable name in action, today it stands as a huge box-office hit for distributor Universal Studios"]'),('["Amy Valadi","Jackson"]') );
